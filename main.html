@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>CSS Modal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<!-- Button -->
+<button id="openModal">Open Modal</button>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+
+  <div class="modal-content">
+
+    <!-- Header -->
+    <div class="modal-header">
+      <h2>Modal Header</h2>
+      <span class="close-modal">&times;</span>
+    </div>
+
+    <!-- Body -->
+    <div class="modal-body">
+      <p>Modal Body Content</p>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
